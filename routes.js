@@ -41,3 +41,7 @@ module.exports = {
     someText: 'This is how we can get multiple call back function from routes'
 
 };
+
+//shortcuts
+//exports.handler = requestHandler;
+//exports.someText= 'This is how we can get multiple call back function from routes';
