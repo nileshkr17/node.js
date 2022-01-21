@@ -36,4 +36,8 @@ const  requestHandler = (req,res) => {
     res.end();
 };
 
-module.exports =requestHandler;
+module.exports = {
+    handler: requestHandler,
+    someText: 'This is how we can get multiple call back function from routes'
+
+}
