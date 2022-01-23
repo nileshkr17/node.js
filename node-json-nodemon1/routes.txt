@@ -1,4 +1,4 @@
-const fs = require('fs');
+/*const fs = require('fs');
 
 const  requestHandler = (req,res) => {
     const url = req.url;
@@ -45,4 +45,5 @@ module.exports = {
 
 //shortcuts
 //exports.handler = requestHandler;
-//exports.someText= 'This is how we can get multiple call back function from routes';
+//exports.someText= 'This is how we can get multiple call back function from routes';*/
+
