@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.urlencoded({extended: false}));
 
-app.use('/add-producthere', (req,res,next)=>
+app.use('/add-product', (req,res,next)=>
 {
     res.send('<form action ="/product" method="POST"> <input type="text" name="title"><button type="submit">Add Product</form>');
      //Allows the request to continue to the next middleware in line
